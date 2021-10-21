@@ -93,3 +93,13 @@ a:focus {
   border-color: #fff;
   color: #ff5e3a;
 }
+
+@media only screen and (min-width: 38em) {
+
+  section {
+    grid-template-areas:
+      "intro intro intro"
+      "col1 col2 col3";
+  }
+
+}
